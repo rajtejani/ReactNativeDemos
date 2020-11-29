@@ -39,8 +39,8 @@ class FlatListWithAnimatedBG extends Component {
 		const offsetOpacity = diff % 1;  																									// get only decimal protion i.e, 2.32355 -> .32355
 		const pageRef = this.imgBGRef[page];
 
-		console.log("**********", ratio, lastRatio);
-		console.log("//////////", Math.abs(ratio - lastRatio));
+		// console.log("**********", ratio, lastRatio);
+		// console.log("//////////", Math.abs(ratio - lastRatio));
 
 		const findCalculation =
 			scrollingDownwards ?
